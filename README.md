@@ -1,5 +1,5 @@
 # DocuEase
-# Streamlining Document Management with DocuEase: The Ultimate Solution for Your Business  
+## Streamlining Document Management with DocuEase: The Ultimate Solution for Your Business  
 
 In today’s fast-paced digital world, effective document management is essential for businesses aiming to stay organized and efficient. However, juggling endless paperwork, digital files, and compliance requirements can be overwhelming. That’s where **DocuEase** comes into play—a revolutionary document management solution designed to simplify, streamline, and optimize your workflow.  
 
