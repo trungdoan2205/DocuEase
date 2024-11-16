@@ -1,0 +1,70 @@
+.hover-svg {
+    display: none;
+}
+
+.main-job-div:hover .non-hover-svg {
+    display: none;
+}
+
+.main-job-div:hover .hover-svg {
+    display: block;
+}
+
+.main-job-div:hover {
+    box-shadow: 0 0 10px #B14BF4;
+}
+
+.career-card {
+    border: 1px solid white;
+    color: #0a7aff;
+}
+
+.pink-shadow {
+    box-shadow: 1px 4px 20px 0px rgba(111,124,252,0.61);
+    -webkit-box-shadow: 1px 4px 20px 0px rgba(111,124,252,0.61);
+    -moz-box-shadow: 1px 4px 20px 0px rgba(111,124,252,0.61);
+}
+
+.job-card:hover .icon-a{
+    @apply hidden;
+}
+
+.job-card:hover .icon-b{
+    @apply flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #06080D;
+    overflow-x: auto;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.link {
+    width:fit-content;
+    min-width: fit-content;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px 8px;
+    color: white;
+    font-size: 16px;
+    background-color:transparent;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.selected {
+    box-shadow: 0px 0px 16px 0px #8869F98A;
+    background-color: #C14DD4;
+}
+
+.selected .amount-circle {
+    background-color: white !important;
+    color: #C66BD5 !important;
+}
